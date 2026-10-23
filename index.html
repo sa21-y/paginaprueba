@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>mi segunda página web</title>
+<link href="icono.png" rel="icon" /><!-- para insertar un icono-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="animacion.css" rel="stylesheet" type="text/css">
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+
+Hola TIC TIC
+<BR><center><div id="info"> Despues de IES CONDESA EYLO</div></center>
+<div id="aviso">nos gusta TIC</div>
+<div id="html"><img id="html" src="etiqueta.png"></div>
+<canvas id="pjsCanvas" >h</canvas>
+</head>
+<body>
+<header>estamos intentando hacer una web medianamente aceptable(imposible)</header>
+
+
+<main>PARA DAR FORMATO A LOS TEXTOS UTILIZO ESTAS ETIQUETAS:
+<br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA</b>
+<br><i>ESTE PEQUEÑO TEXTO LO VOY A PONER EN CURSIVA</i>
+<br><U> VOY A PONER M NOMBRE: PAULA SUBRAYADO </U>
+<br><MARK> ESTE TEXTO QUEDARÁ MUY BONITO PORQUE ME HACE UN REMARCADO DIFERENTE </MARK>
+<br> hola hola pajarito sin cola
+<br>(VAMOS A CORREGIR LA ALINEACIÓN DEL TEXTO ANTERIOR CON LA ETIQUETA CENTER)
+
+<CENTER><br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA</b>
+<br><i>ESTE PEQUEÑO TEXTO LO VOY A PONER EN CURSIVA</i>
+<br><U> VOY A PONER M NOMBRE: PAULA SUBRAYADO </U>
+<br><mark style="background-color: lightgreen; color: black;"> ESTE TEXTO QUEDARÁ MUY BONITO PORQUE ME HACE UN REMARCADO DIFERENTE </MARK>
+<br> hola hola pajarito sin cola
+
+</center><div align="right">
+<br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA</b>
+<br><i>ESTE PEQUEÑO TEXTO LO VOY A PONER EN CURSIVA</i>
+<br><U> VOY A PONER M NOMBRE: PAULA SUBRAYADO </U>
+<br><mark style="background-color: lightblue; color: black;"> ESTE TEXTO QUEDARÁ MUY BONITO PORQUE ME HACE UN REMARCADO DIFERENTE </MARK> mirarrara
+<br> hola hola pajarito sin cola</div>
+
+<p> PARA HACER UN PÁRRAFO UTILIZAMOS LA ETIQUETA P. Ahora me enrrollo un poco aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, me cansé de escribir</p>          
+</main>
+
+<p id="puntodos"> enlace interno </p>
+<!-- aquí voy a hacer un final de enlace interno para explicarlos-->
+<center><font color="red"><big><big><big> AHORA VAMOS A HACER LISTAS</font></center></big></big></big>
+
+<UL>LISTA NUEVA</UL>
+<BR><UL><LI>
+PRIMERA FILA SIN VIÑETA(nos pondrá una fila por defecto)</LI>
+<LI>NOS PONDRÁ UNA SEGUNDA LÍNEA POR DEFECTO</LI></UL>
+<UL><LI>
+<UL>AHORA ME APETECE PONER UN SUBÍNDICE
+<br><LI>PROCEDERÉ A HACERLO</LI></UL><br>   
+         
+OTRA SEGUNDA LISTAS
+<LI TYPE="SQUARE"> PRIMERA FILA DE ESTA NUEVA FILA CON CUADRADO </LI>
+<LI TYPE="SQUARE"> SEGUNDA FILA DE ESTA NUEVA FILA CON CUADRADO </LI>
+<LI TYPE="SQUARE"> TERCERA FILA DE ESTA NUEVA FILA CON CUADRADO </LI></UL><br>
+
+OTRA TERCERA LISTA
+<UL><LI TYPE="CIRCLE"> PRIMERA FILA DE ESTA NUEVA FILA CON CÍRCULO </LI>
+<LI TYPE="CIRCLE"> SEGUNDA FILA DE ESTA NUEVA FILA CON CÍRCULO </LI>
+<LI TYPE="CIRCLE"> TERCERA FILA DE ESTA NUEVA FILA CON CÍRCULO </LI></UL><br>
+
+OTRA CUARTA LISTA
+<UL><LI TYPE="DISC"> PRIMERA FILA DE ESTA NUEVA FILA CON CÍRCULO DE FONDO NEGRO </LI>
+<LI TYPE="DISC"> SEGUNDA FILA DE ESTA NUEVA FILA CON CÍRCULO DE FONDO NEGRO </LI>
+<LI TYPE="DISC"> TERCERA FILA DE ESTA NUEVA FILA CON CÍRCULO DE FONDO NEGRO </LI></UL><br>
+
+UNA quinta lista más divertida y personalizada por vosotros, con la combinación de teclas windows + . se os abrirá la opción de colocar emojis
+<ul>😘😘😘😘😘 primera fila</ul>
+<ul>😒😒😒segunda fila</ul>
+
+<center><font color="lightgreen"><big><big><big>AHORA VAMOS A HACER LISTAS NUMERADAS</font></center></big></big></big>
+<OL><!--Aquí se colocaran por defecto en forma decimal-->
+<li> texto para un apartado de una lista</li>
+<li> texto para segundo apartado de una lista</li>
+<li> texto para tercer apartado de una lista</li>
+<li> texto para cuato apartado de una lista</li></ol>
+
+<ol type="a"><!--Aquí se colocaran por defecto en orden alfabético-->
+<li> texto para un apartado de una lista</li>
+<li> texto para segundo apartado de una lista</li>
+<li> texto para tercer apartado de una lista</li>
+<li> texto para cuarto apartado de una lista</li></ol>
+
+<ol type="i"><!--Aquí se colocaran por defecto en números romanos-->
+<li> texto para un apartado de una lista</li>
+<li> texto para segundo apartado de una lista</li>
+<li> texto para tercer apartado de una lista</li>
+<li> texto para cuarto apartado de una lista</li></ol>
+
+<ol type="i"><!--Aquí se colocaran por defecto en números romanos-->
+<li value="5">etiqueta para que el texto pueda empezar en el apartado 5</li>
+<li> texto para segundo apartado de una lista</li>
+<li> texto para tercer apartado de una lista</li>
+<li> texto para cuarto apartado de una lista</li></ol>
+
+<p class="vamosaensayar">soy muy listaaaa</p class>
+<center><table value="tablal">
+<caption>Mi primera tabla en html sin bordes</caption>
+<tr> <td> celda 1</td>
+<td> celda 2</td>
+<td> celda 3</td></td>
+
+<tr><td> celda 4</td>
+<td> celda 5</td>
+<td> celda 6</td></tr>
+</table></center><br>
+
+<center><table border="1">
+<caption>Mi primera tabla en html con bordes</caption>
+<tr> <td> celda 1</td>
+<td> celda 2</td>
+<td> celda 3</td></td>
+
+<tr><td> celda 4</td>
+<td> celda 5</td>
+<td> celda 6</td></tr>
+</table></center>
+
+<center><table border="1">Mi tabla con las celdas combinadas<!--Aquí se podrán ver las celdas combinadas-->
+<tr><td colspan="3">celda que combina a tres columnas</td></tr>
+<tr><td rowspan="2">celda que combina a dos filas</td>
+<td>celda normal</td>
+<td>celda normal</td></tr>
+<tr><td>celda normal</td>
+<td>celda normal</td></tr>
+</table></center>
+
+<center><font color="lightblue"><big><big><big>VAMOS A ENSAYAR COLOCANDO AHORA UNA LÍNEA PARA SEPARAR CONTENIDOS</font>
+</big></big></big></center><br>
+
+<center><big><big><big><b><I><u>Imágenes<br></b></i></u></big></big></center>
+<center><img src="etiqueta.png" alt="mi etiqueta" border="1"
+align="top" width="400" height="40%"></img></center><br>
+
+<center><font color="pink"><big><big>AHORA LE VAMOS A QUITAR EL BORDE Y VAMOS A COLOCAR LA IMAGEN A LA DERECHA, VAMOS A ENSANCHAR LA IMAGEN Y A DISMINUIR SE ALTURA</center></big></big></font>
+<img src="etiqueta.png" alt="mi etiqueta" border="0"
+align="right" width="600" height="200"></img><br>
+
+<center><big><big><big><b><I><u>Enlaces<br></b></i></u></big></big></center>
+<center><a href="https://www.google.com/"> Pulsa aquí para acceder a google </a><br>
+<a href="https://www.google.com/" target="_blank">pulsa aquí para acceder a google en una ventana nueva</a><br>
+<a href="htmlcincoycss.pdf">descarga desde aquí el documento para elegir tema </a><br>
+<a href="https://sa21-y.github.io/IACOndesaPaulaP-rez/?classId=c4f4492b-26f4-435b-9836-485554295896&assignmentId=1be51190-9561-47da-9fbb-7737f7fbefd0&submissionId=6d1a99e5-345b-47cc-b4de-d0df0863a6bb">desde aquí, enlace con otra página html</a><br>
+<a href="#puntodos">desde aquí, vuelvo al enlace de EMPEZAMOS LISTA</a>
+<!--Esto es un enlace interno--><br>
+
+<center><big><big><b><I><u>INSETAR UNA CANCIÓN<br></b></i></u></big></big></center>
+<center><br><audio src="cancion.mp3" controls></audio>
+<br><audio src="canciona.mp3" controls></audio><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zdEqVujXGdE?si=RzPdkOfrnzJztchY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<center><big><big><b><I><u>INSETAR UN VÍDEO<br></b></i></u></big></big></center>
+<video src="video.mp4" width="560" height="315" controls></video>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.1526990498917!2d-4.725731130387617!3d42.78430981753919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd48400b1ad3132f%3A0xf0fb6dcfff105aed!2s34878%20Viduerna%20de%20la%20Pe%C3%B1a%2C%20Palencia!5e0!3m2!1ses!2ses!4v1791287514527!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<br><br><br>
+</body>
+
+<nav id="menuhorizontal"><ul>
+<li> <a href="htmlcincoycss.pdf"> botón uno</a></li>
+<li> botón dos</li>
+<li> botón tres</li></ul></nav>
+<nav id="menuD"<font color="darkblue"><ul><li>menu<ul>
+<li><a href="htmlcincoycss.pdf" target ="_blank">Botón 1</a></li>
+<li>Botón 2<ul>
+<li><a href="https://www.google.com/" target="_blanck"> Botón 2</a></li>
+<li> Botón 2.2</li></ul></li></ul></nav>
+<br><br><br><br><br><br><br><br>
+
+
+
+<footer>
+<br>
+Adiós TIC TIC
+</footer> 
+</html>
